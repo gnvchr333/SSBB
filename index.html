@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온라인 헌금 안내</title>
+    <style>
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f7f9fc;
+            margin: 0;
+        }
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            text-align: center;
+            max-width: 360px;
+            width: 90%;
+        }
+        .header {
+            margin-bottom: 25px;
+        }
+        .logo-placeholder { /* 교회 로고가 있을 경우 여기에 배치 */
+            font-size: 14px;
+            color: #999;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 24px;
+            color: #2c3e50;
+            margin: 0 0 15px 0;
+            font-weight: 700;
+        }
+        p {
+            font-size: 15px;
+            color: #5a6772;
+            line-height: 1.6;
+            margin: 0 0 30px 0;
+            word-break: keep-all;
+        }
+        .qr-wrapper {
+            background: #fdfdfd;
+            border: 1px solid #edf2f7;
+            padding: 15px;
+            border-radius: 12px;
+            display: inline-block;
+        }
+        .qr-code {
+            width: 220px;
+            height: 220px;
+            display: block;
+        }
+        .footer {
+            margin-top: 25px;
+            font-size: 13px;
+            color: #a0aec0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <!-- 나중에 교회 로고 이미지를 업로드하시면 이 부분에 추가할 수 있습니다 -->
+            <h1>온라인 헌금</h1>
+            <p>QR코드 촬영한 후 자신의 은행에서 헌금하실 수 있습니다.</p>
+        </div>
+        
+        <div class="qr-wrapper">
+            <!-- 소스[1]의 QR 코드 이미지가 삽입되는 위치입니다 -->
+            <img src="111.jpg" alt="헌금 QR 코드" class="qr-code">
+        </div>
+
+        <div class="footer">
+            © 강남비전교회. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
